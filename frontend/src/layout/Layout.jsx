@@ -1,6 +1,6 @@
-import Nav from "components/Nav";
-import Spinner from "components/Spinner";
-import { Helmet } from "react-helmet-async";
+import Nav from 'components/Nav';
+import Spinner from 'components/Spinner';
+import { Helmet } from 'react-helmet-async';
 
 const Layout = ({ children, title, loading }) => {
   return (
@@ -16,7 +16,7 @@ const Layout = ({ children, title, loading }) => {
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <link rel="canonical" href="https://pern-store.netlify.app/" />
+        <link rel="canonical" href="https://pern-ecommerce-starter.netlify.app/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="pern ecommerce" />
@@ -24,13 +24,12 @@ const Layout = ({ children, title, loading }) => {
           property="og:description"
           content="E-commerce store built with React, Node, Express and Postgres"
         />
-        <meta property="og:url" content="https://pern-store.netlify.app/" />
+        <meta property="og:url" content="https://pern-ecommerce-starter.netlify.app/" />
         <meta property="og:site_name" content="pern ecommerce" />
         <meta property="og:image" content="android-chrome-512x512.png" />
         <meta property="og:image:secure_url" content="android-chrome-512x512.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        
-        
+
         <meta
           name="twitter:description"
           content="E-commerce store built with React, Node, Express and Postgres"

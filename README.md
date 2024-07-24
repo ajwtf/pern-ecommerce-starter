@@ -8,7 +8,7 @@ A full-stack e-commerce project built with Postgres, Express, React and Node.
 
 ## Demo
 
-[Run demo](https://pern-store.netlify.app)
+[Run demo](https://pern-ecommerce-starter.netlify.app)
 
 ## Screenshots
 
@@ -160,4 +160,4 @@ To run this project, you will need to add the following environment variables to
 
 Project Link: [https://github.com/ajwtf/pern-ecommerce-starter](https://github.com/ajwtf/pern-ecommerce-starter)
 
-Demo Link: [https://pern-store.netlify.app](https://pern-store.netlify.app)
+Demo Link: [https://pern-ecommerce-starter.netlify.app](https://pern-ecommerce-starter.netlify.app)
